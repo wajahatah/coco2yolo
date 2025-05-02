@@ -2,8 +2,8 @@ import json
 import os
 
 # Paths to COCO annotation JSON file and the directory to save YOLO labels
-coco_annotation_path = "C:/Users/LAMBDA THETA/Downloads/a57/annotations/person_keypoints_default.json"
-yolo_labels_dir = "C:/Users/LAMBDA THETA/Downloads/a57/annotations/yolo"
+coco_annotation_path = "C:/Users/LAMBDA THETA/Downloads/try2/annotations/person_keypoints_default.json"
+yolo_labels_dir = "C:/Users/LAMBDA THETA/Downloads/try2/yolo_labels"
 os.makedirs(yolo_labels_dir, exist_ok=True)
 
 # Function to normalize keypoints
